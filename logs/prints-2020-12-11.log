@@ -1,0 +1,7 @@
+02:01:43.427 [TestNG-tests-2] INFO  resources.base - Driver is initialized
+02:01:49.684 [TestNG-tests-2] INFO  resources.base - Navigated to Home page
+02:01:58.109 [TestNG-tests-2] INFO  resources.base - Successfully validated Text message
+02:01:58.144 [TestNG-tests-3] INFO  resources.base - NavBar is displayed
+02:02:00.058 [TestNG-tests-1] INFO  resources.base - Restricted User
+02:02:12.469 [TestNG-tests-1] INFO  resources.base - Nonrestricted User
+02:02:30.203 [TestNG-tests-2] INFO  resources.base - Driver is initialized

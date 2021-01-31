@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-18T02:29:13 MEZ" name="Suite" finished-at="2020-12-18T02:29:48 MEZ" duration-ms="34127">
+    <groups>
+    </groups>
+    <test started-at="2020-12-18T02:29:13 MEZ" name="Academe.validateTitle" finished-at="2020-12-18T02:29:35 MEZ" duration-ms="21140">
+      <class name="Academe.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academe.validateTitle@75390459]" started-at="2020-12-18T02:29:13 MEZ" name="initialize" finished-at="2020-12-18T02:29:34 MEZ" duration-ms="20934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateHeader()[pri:0, instance:Academe.validateTitle@75390459]" started-at="2020-12-18T02:29:34 MEZ" name="validateHeader" finished-at="2020-12-18T02:29:34 MEZ" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method signature="validateTitle()[pri:0, instance:Academe.validateTitle@75390459]" started-at="2020-12-18T02:29:34 MEZ" name="validateTitle" finished-at="2020-12-18T02:29:35 MEZ" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academe.validateTitle@75390459]" started-at="2020-12-18T02:29:35 MEZ" name="teardown" finished-at="2020-12-18T02:29:35 MEZ" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academe.validateTitle -->
+    </test> <!-- Academe.validateTitle -->
+    <test started-at="2020-12-18T02:29:13 MEZ" name="Academe.HomePage" finished-at="2020-12-18T02:29:48 MEZ" duration-ms="34127">
+      <class name="Academe.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academe.HomePage@6035b93b]" started-at="2020-12-18T02:29:13 MEZ" name="initialize" finished-at="2020-12-18T02:29:18 MEZ" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academe.HomePage@6035b93b]" started-at="2020-12-18T02:29:18 MEZ" name="basePageNavigation" data-provider="getData" finished-at="2020-12-18T02:29:35 MEZ" duration-ms="17054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academe.HomePage@6035b93b]" started-at="2020-12-18T02:29:35 MEZ" name="basePageNavigation" data-provider="getData" finished-at="2020-12-18T02:29:48 MEZ" duration-ms="12663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nonrestricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academe.HomePage@6035b93b]" started-at="2020-12-18T02:29:48 MEZ" name="teardown" finished-at="2020-12-18T02:29:48 MEZ" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academe.HomePage -->
+    </test> <!-- Academe.HomePage -->
+  </suite> <!-- Suite -->
+</testng-results>
